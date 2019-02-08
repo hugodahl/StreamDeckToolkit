@@ -35,7 +35,7 @@ namespace StreamDeckLib.Test
 
 			// Act
 				await ConnectionManager.Initialize(StubProxy.ValidCommandLineArguments, null, stub)
-					.StartAsync(CancellationToken.None);
+					.StartAsync();
 
 			// Assert
 
